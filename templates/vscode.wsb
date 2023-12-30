@@ -1,0 +1,13 @@
+<Configuration>
+  <AudioInput>Disable</AudioInput>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>C:\users\chenxizhang\wsb\scripts</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\Downloads\sandbox</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>powershell.exe -ExecutionPolicy Bypass -File C:\Users\WDAGUtilityAccount\Downloads\sandbox\vscode.ps1</Command>
+  </LogonCommand>
+</Configuration>
